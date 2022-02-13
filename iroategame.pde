@@ -67,7 +67,7 @@ void draw() {
 void keyPressed() {
 
 
-
+//コマンド選択処理
   if (gamenn==1) {
     if (key=='a'||key=='d') {
       scene=3;
@@ -120,6 +120,7 @@ void keyPressed() {
 
 }
 
+//画面描写
 void gamenn1() {
   background(255, 255, 255);
   textSize(50);
